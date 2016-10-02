@@ -1,0 +1,14 @@
+000567890 | John Brown | shoes
+345265689 | Jim Beam | boots
+000456789 | Kevin White | batteries
+000265799 | Dolly Parton | snacks
+000839286 | Kelly Rich | sweaters
+876534274 | Joe Morrow | socks
+0002223333 | Peg Childs | vitamins
+0004445555 | Suzie Queen | game console
+000265789 | Rob Walt | charger
+000456787 | Josie Mitchell | baseball
+000265789 | Rob Walt | TV set
+000839286 | Kelly Rich | tool set
+000266789 | Elmer Jones | bathroom fixtures
+600839286 | Ralph Peters | knife set
