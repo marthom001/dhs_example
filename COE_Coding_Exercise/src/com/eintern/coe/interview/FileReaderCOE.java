@@ -4,6 +4,7 @@
 package com.eintern.coe.interview;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -17,9 +18,13 @@ public class FileReaderCOE {
 		ArrayList<String> all_SSNs = new ArrayList<String>();
 
 		try {
+			/*File file = new File("TestFile.txt");
+			FileReader fileReader = new FileReader(filePath);
+			BufferedReader buffRead = new BufferedReader(fileReader);*/
+			
 			FileReader fileReader = new FileReader(filePath);
 			BufferedReader buffRead = new BufferedReader(fileReader);
-
+						
 			// Read each line of the file into the Buffered Reader
 			// and send the line to be processed by the LineParser class
 			// Good SSNs are then added to the ArrayList "all_SSNs"
@@ -42,6 +47,7 @@ public class FileReaderCOE {
 			
 		} catch (IOException ioe) {
 			System.out.println("--Wrong type of character--");
+			ioe.printStackTrace();
 		}
 
 	}
